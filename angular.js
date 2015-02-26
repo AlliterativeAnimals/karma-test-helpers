@@ -62,7 +62,11 @@ function triggerKeyup(element, keyCode) {
 
 function unpromise(promise) {
     var result = {};
-    promise
+    var $q;
+    inject(function(_$q_) {
+    	$q = _$q_;
+    })
+    $q.when(promise)
         .then(function(t) {
             result.then = t;
         })
