@@ -1,0 +1,17 @@
+{
+  "name": "karma-test-helpers",
+  "version": "0.0.1",
+  "homepage": "https://github.com/AlliterativeAnimals/karma-test-helpers",
+  "authors": [
+    "ReactiveRaven <reactiveraven@gmail.com>"
+  ],
+  "description": "Set of helper functions for Karma tests",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
